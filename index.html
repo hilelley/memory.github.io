@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Keen-Slider</title>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/keen-slider@4.1.5/keen-slider.min.css"
+    />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+
+  <body>
+    <div id="my-keen-slider" class="keen-slider">
+      <img class="keen-slider__slide number-slide1" src="/אריה.jpg" alt="" />
+
+      <img class="keen-slider__slide number-slide2" src="/ארנבות.jpg" alt="" />
+
+      <img class="keen-slider__slide number-slide3" src="/פיל.jpg" alt="" />
+
+      <img class="keen-slider__slide number-slide4" src="/פלמנגו.jpg" alt="" />
+
+      <img class="keen-slider__slide number-slide5" src="/צבי.jpg" alt="" />
+
+      <img class="keen-slider__slide number-slide6" src="/תוכים.jpg" alt="" />
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/keen-slider@4.1.3/keen-slider.min.js"></script>
+    <script>
+      var slider = new KeenSlider("#my-keen-slider", {
+        slidesPerView: 2,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>
