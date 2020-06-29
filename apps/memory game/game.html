@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>My App</title>
+    <link rel="stylesheet" href="css/game.css" />
+  </head>
+
+  <body>
+    <div class="header">
+      <h1>Memory Game</h1>
+    </div>
+
+    <div class="cards">
+      <div class="card" data-card="1">
+        <img src="img/cards/1.png" />
+        <img class="back" src="img/cards/back.png" />
+      </div>
+      <div class="card" data-card="3">
+        <img src="img/cards/3.png" />
+        <img class="back" src="img/cards/back.png" />
+      </div>
+      <div class="card" data-card="1">
+        <img src="img/cards/1.png" />
+        <img class="back" src="img/cards/back.png" />
+      </div>
+      <div class="card" data-card="3">
+        <img src="img/cards/3.png" />
+        <img class="back" src="img/cards/back.png" />
+      </div>
+      <div class="card" data-card="2">
+        <img src="img/cards/2.png" />
+        <img class="back" src="img/cards/back.png" />
+      </div>
+      <div class="card" data-card="2">
+        <img src="img/cards/2.png" />
+        <img class="back" src="img/cards/back.png" />
+      </div>
+    </div>
+
+    <div class="game_time">
+      game time
+      <div class="Timer"></div>
+    </div>
+
+    <div class="best-time">
+      <button class="best_time">best time:</button>
+      <div class="best_time_show"></div>
+    </div>
+
+    <span>
+      <button class="play" style="display: none;">play again</button>
+    </span>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script src="js/game.js"></script>
+  </body>
+</html>

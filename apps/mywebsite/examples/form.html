@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <style>
+      form {
+        width: 600px;
+        padding: 20px;
+        margin: 0 auto;
+      }
+
+      input,
+      textarea {
+        width: 100%;
+        padding: 13px;
+        margin-bottom: 20px;
+      }
+
+      input:focus,
+      textarea:focus {
+        outline: red auto 1px;
+      }
+    </style>
+  </head>
+  <body dir="rtl">
+    <form class="form" id="form1">
+      <input id="name" name="name" type="text" placeholder="שם מלא" />
+
+      <input id="email" name="email" type="email" placeholder="אימייל" />
+
+      <input
+        id="password"
+        name="password"
+        type="password"
+        placeholder="סיסמא"
+      />
+
+      <textarea
+        id="text"
+        rows="4"
+        cols="50"
+        name="text"
+        placeholder="תגובה"
+      ></textarea>
+
+      <div class="submit">
+        <input type="submit" value="שלח" id="button-blue" />
+        <div class="ease"></div>
+      </div>
+    </form>
+  </body>
+</html>

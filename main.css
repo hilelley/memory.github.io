@@ -1,0 +1,102 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-image: url(/תמונות/רקע.jpg);
+  background-size: cover;
+  background-position: center;
+}
+header {
+  display: block;
+  height: 300px;
+  background-image: url("תמונות/קלפים\ כותרת.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+header h1 {
+  position: relative;
+  top: 108px;
+  right: 140px;
+  line-height: unset;
+  font-size: 100px;
+  color: rgb(194, 242, 32);
+}
+
+.front {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+#cards {
+  width: 624px;
+  height: 417px;
+  position: relative;
+  left: -212px;
+  bottom: -18px;
+}
+
+.card {
+  position: relative;
+  width: 180px;
+  height: 180px;
+  float: right;
+  margin: 14px;
+}
+
+button#Times {
+  display: block;
+  position: relative;
+  left: -353px;
+  bottom: -47px;
+  font-size: 100px;
+  color: rgb(244, 81, 30);
+  border: none;
+  background-color: white;
+  width: 348px;
+  background: none;
+}
+button span {
+  display: inline;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+}
+span#minutes {
+  right: -32px;
+}
+span#__ {
+  top: -8px;
+}
+span#Seconds {
+  left: -28px;
+}
+footer {
+  position: relative;
+  bottom: -47px;
+}
+.beck {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.flipped .beck {
+  display: none;
+}
+.disnone {
+  display: none;
+}
+#spanbestTime {
+  color: rgb(15, 80, 221);
+  font-size: 30px;
+  visibility: hidden;
+  position: relative;
+  bottom: -48px;
+  left: -474px;
+}
+#btnbestTime {
+  position: relative;
+  left: -672px;
+  bottom: 13px;
+}

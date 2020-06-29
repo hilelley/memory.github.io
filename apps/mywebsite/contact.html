@@ -1,0 +1,72 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <script src="./js/1.validation.js"></script>
+  </head>
+
+  <body dir="rtl">
+    <header>
+      <h1>האתר הראשון שלי</h1>
+    </header>
+
+    <container>
+      <div class="menu">
+        <a href="./index.html">דף הבית</a>
+        <a href="./about.html">אודות</a>
+        <a href="#">לוח אירועים ופעילויות</a>
+        <a href="#">הצטרף כחבר</a>
+        <a href="#">צרו קשר</a>
+      </div>
+      <div class="content contact-us">
+        <h2 class="b">צור קשר</h2>
+        <div class="content-text-wrapper">
+          <div id="error"></div>
+          <form action="check.js" class="form" id="form1">
+            <p>
+              <input
+                name="name"
+                type="text"
+                class="validate[required,custom[onlyLetter],length[0,100]] feedback-input"
+                placeholder="שם מלא"
+                id="name"
+              />
+            </p>
+
+            <p>
+              <input
+                name="email"
+                type="text"
+                class="validate[required,custom[email]] feedback-input"
+                id="email"
+                placeholder="אימייל"
+              />
+            </p>
+
+            <p>
+              <textarea
+                id="text"
+                name="text"
+                class="validate[required,length[6,300]] feedback-input"
+                placeholder="תגובה"
+              ></textarea>
+            </p>
+
+            <div class="submit">
+              <input
+                type="submit"
+                value="שלח"
+                onclick="validateForm(event)"
+                id="button-blue"
+              />
+              <div class="ease"></div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </container>
+
+    <footer>
+      <div>האתר הראשון שלי בקורס FULL STACK</div>
+    </footer>
+  </body>
+</html>

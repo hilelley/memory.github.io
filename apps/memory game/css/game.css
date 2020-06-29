@@ -1,0 +1,83 @@
+
+body {
+  margin: 0px;
+}
+
+.cards {
+  width: 538px;
+  margin: 65px auto;
+}
+
+
+h1 {
+  float: right;
+}
+
+
+.header {
+  padding: 20px;
+  color: #fff;
+  font-size: 1.5em;
+  height: 198px;
+  text-align: center;
+  background-image: url(https://i0.wp.com/androidmag.de/wp-content/uploads/2018/05/shutterstock_720193894.jpg?fit=1200%2C622&ssl=1);
+  background-size: 100%;
+}
+
+.header img {
+  float: right;
+}
+
+button.best_time {
+  background: red;
+  color: #fff;
+  padding: 14px;
+  border-radius: 5px;
+  border: 0px;
+  margin: 20px;
+}
+
+.card {
+  background-color: pink;
+  height: 165px;
+  width: 165px;
+  float: left;
+  margin: 5px;
+}
+
+.card img {
+  position: absolute;
+  width: 165px;
+  height: 166px;
+  object-fit: cover;
+}
+.flipped .back {
+  display: none;
+}
+
+
+.game_time {
+  clear: both;
+  width: 535px;
+  margin: 65px auto;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.Timer {
+  font-size: 99px;
+  color: #e98037;
+  font-family: monospace;
+}
+
+.best-time {
+  clear: both;
+  width: 535px;
+  margin: 0px auto;
+  text-align: center;
+  display: flex;
+}
+
+.best_time_show {
+  line-height: 6;
+}

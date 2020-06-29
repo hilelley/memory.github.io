@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Calculator for Binyamin Tech</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <input type="button" value="send1" class="number" />
+    <input type="button" value="send2" class="number" />
+    <input type="button" value="send3" class="number" />
+    <script>
+      const buttons = document.getElementsByClassName("number");
+      var baba = 2;
+      for (let i = 0; i < buttons.length; i++) {
+        buttons[i].addEventListener(
+          "click",
+          function () {
+            console.log("in", i);
+            calculate(buttons[i]);
+          },
+          false
+        );
+      }
+
+      function calculate(btn) {
+        console.log(btn);
+      }
+    </script>
+  </body>
+</html>
