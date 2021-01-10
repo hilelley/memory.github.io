@@ -6,6 +6,7 @@ window.addEventListener("load", function () {
   let seconundCard = null;
   let intervalStoper = null;
   let numWin = 0;
+  var x;
   let LowestTime = null;
   let Second = document.querySelector("#Seconds");
   let minute = document.querySelector("#minutes");
@@ -23,7 +24,7 @@ window.addEventListener("load", function () {
   }
 
 
-  
+
   function flip() {
     let card = event.target.closest(".card");
     if (!firstCard) {
