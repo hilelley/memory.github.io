@@ -22,6 +22,8 @@ window.addEventListener("load", function () {
     }
   }
 
+
+  
   function flip() {
     let card = event.target.closest(".card");
     if (!firstCard) {
